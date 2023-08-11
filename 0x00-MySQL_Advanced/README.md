@@ -1,8 +1,8 @@
 #  0x00. MySQL advanced
 ## Mandatory
-- [ ] 0. We are all unique!
-- [ ] 1. In and not out
-- [ ] 2. Best band ever!
+- [x] 0. We are all unique!
+- [x] 1. In and not out
+- [x] 2. Best band ever!
 - [ ] 3. Old school band
 - [ ] 4. Buy buy buy
 - [ ] 5. Email validation to sent
