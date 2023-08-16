@@ -5,9 +5,8 @@ Module for list_all documents in a collection
 from pymongo import MongoClient
 
 
-def insert_school(mongo_collection, **kwargs):
+def update_topics(mongo_collection, name, topics):
     """
     List all documents in a collection.
     """
-    a = mongo_collection.insert_one(kwargs)
-    return a.inserted_id
+    mongo_collection.update_many({"name":name}, topics)

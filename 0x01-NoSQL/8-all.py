@@ -2,7 +2,7 @@
 """
 Module for list_all documents in a collection
 """
-from pymongo import MongoClienit
+from pymongo import MongoClient
 import pymongo
 
 
