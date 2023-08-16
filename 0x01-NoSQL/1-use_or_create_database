@@ -1,0 +1,3 @@
+// use a db in mango db
+
+use my_db

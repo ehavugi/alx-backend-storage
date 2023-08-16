@@ -1,0 +1,5 @@
+// find all documents in collection "school"
+// return their count
+// database name is passed as option of mongo command
+
+db.school.find().count()

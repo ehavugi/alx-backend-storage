@@ -1,0 +1,4 @@
+// find all documents in collection "school"
+// database name is passed as option of mongo command
+
+db.school.find()

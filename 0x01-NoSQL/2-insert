@@ -1,0 +1,5 @@
+// insert data into collection called "school"
+// attribute :name, value : "Holberton school"
+// database name is pass as option to mongo command
+
+db.school.insert({name:"Holberton school"})
