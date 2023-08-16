@@ -3,9 +3,13 @@
 // add attribute address with value "972 Mission street"
 // db will be passed as option of mongo command
 
-db.school.updateMany(
-   {name : "Holberton school", },
+db.school.update(
+   {name : "Holberton school"},
     {
-	$set:{address:"972 Mission street"},
+	$set:{address:"972 Mission street"}
+    },
+    {
+	multi:true,
+	upsert:false
     }
 )

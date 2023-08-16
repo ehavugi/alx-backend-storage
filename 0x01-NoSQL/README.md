@@ -9,7 +9,7 @@
 - [x] 4-match
 - [x] 5-count
 - [ ] 6-update
-- [ ] 7-delete
+- [x] 7-delete
 - [ ] 8. List all documents in Python
 - [ ] 9. Insert a document in Python
 - [ ] 10. Change school topics
