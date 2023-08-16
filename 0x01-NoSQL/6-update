@@ -1,0 +1,11 @@
+// new attribute to a document in the collection school
+// name = "Holberton school" (all of them) -- update many
+// add attribute address with value "972 Mission street"
+// db will be passed as option of mongo command
+
+db.school.updateMany(
+   {name : "Holberton school", },
+    {
+	$set:{address:"972 Mission street"},
+    }
+)

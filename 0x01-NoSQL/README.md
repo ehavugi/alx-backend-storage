@@ -2,12 +2,12 @@
 
 ## Mandatory
 
-- [ ] 0-list\_databases
-- [ ] 1-use\_or\_create\_database
-- [ ] 2-insert
-- [ ] 3-all
-- [ ] 4-match
-- [ ] 5-count
+- [x] 0-list\_databases
+- [x] 1-use\_or\_create\_database
+- [x] 2-insert
+- [x] 3-all
+- [x] 4-match
+- [x] 5-count
 - [ ] 6-update
 - [ ] 7-delete
 - [ ] 8. List all documents in Python
