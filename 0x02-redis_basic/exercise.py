@@ -48,7 +48,7 @@ class Cache():
         return self.get(key, int)
 
 
-if __name__== "__main__":
+if __name__ == "__main__":
     cache = Cache()
     TEST_CASES = {
         b"foo": None,
