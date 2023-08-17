@@ -18,5 +18,5 @@ if __name__ == "__main__":
 
     print("{} logs\nMethods:".format(count))
     for method in methodList:
-        print("    method {}: {}".format(method, methods.get(method, 0)))
+        print("\tmethod {}: {}".format(method, methods.get(method, 0)))
     print("{} status check".format(statusChecks))
