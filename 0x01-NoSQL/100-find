@@ -1,0 +1,4 @@
+// list all documents with name startswith "Holberiton" in collection "school"
+// db name will be passed as option of mongo command
+// use regex
+db.school.find({name :{$regex:'Holberton.*'}})

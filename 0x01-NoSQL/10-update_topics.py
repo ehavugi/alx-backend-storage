@@ -9,4 +9,4 @@ def update_topics(mongo_collection, name, topics):
     """
     List all documents in a collection.
     """
-    mongo_collection.update_many({"name":name}, topics)
+    mongo_collection.update_many({"name": name}, topics)
